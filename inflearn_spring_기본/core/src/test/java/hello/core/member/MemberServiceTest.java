@@ -1,14 +1,12 @@
 package hello.core.member;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class MemberServiceTest {
 
-    MemberService memberService = new MemberServiceImple();
+    MemberService memberService = new MemberServiceImpl();
 
     @Test
     void join() {
